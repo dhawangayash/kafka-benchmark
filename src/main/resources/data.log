@@ -1,0 +1,223 @@
+CONTROLLER Status Page
+{
+  "consoleLog": {
+    "logEntryMap": {
+      "ComputeDiff": {
+        "lines": [
+          "20170525_003655.835: Start 600",
+          "20170525_003656.086: Done."
+        ]
+      },
+      "DataUpdate": {
+        "lines": [
+          "20170525_003655.813: Started without force update",
+          "20170525_003655.816: reload RULE_ENGINE_2 in progress",
+          "20170525_003855.819: Server RULE_ENGINE_2 is up",
+          "20170525_003855.820: reload RULE_ENGINE_1 in progress",
+          "20170525_004055.822: Server RULE_ENGINE_1 is up",
+          "20170525_004055.822: Done RuleEngine only data update."
+        ]
+      }
+    }
+  },
+  "counters": {
+    "Health.IsHealthy": 1,
+    "Health.RULE_ENGINE_1.IsHealthy": 1,
+    "Health.RULE_ENGINE_2.IsHealthy": 1
+  },
+  "serverType": 4,
+  "time": 1495674782435
+}
+Client adjust
+PipelineConfig prod.realtime
+RULE_ENGINE_1 (Healthy): status
+OK
+{
+  "consoleLog": {
+    "logEntryMap": {
+    }
+  },
+  "counters": {
+    "Health.BootstrapTime": 169,
+    "Health.IsHealthy": 1,
+    "MonitorPing": 11975,
+    "POST_ACTION.Last10K.Ack.DetectedPercentage": 0,
+    "POST_ACTION.Last10K.Ack.Events.All": 0,
+    "POST_ACTION.Last10K.NonAck.DetectedPercentage": 0,
+    "POST_ACTION.Last10K.NonAck.Events.All": 0,
+    "POST_ACTION.Last1Min.Ack.DetectedPercentage": 0,
+    "POST_ACTION.Last1Min.Ack.Events.All": 0,
+    "POST_ACTION.Last1Min.NonAck.DetectedPercentage": 0,
+    "POST_ACTION.Last1Min.NonAck.Events.All": 0,
+    "PROD.Last10K.Ack.DetectedPercentage": 0,
+    "PROD.Last10K.Ack.Events.AckSkipParse": 10746,
+    "PROD.Last10K.Ack.Events.All": 10746,
+    "PROD.Last10K.Ack.ResponseTime.L00": 9674,
+    "PROD.Last10K.Ack.ResponseTime.L01": 1066,
+    "PROD.Last10K.Ack.ResponseTime.L04": 6,
+    "PROD.Last10K.Ack.ResponseTime.Max": 12,
+    "PROD.Last10K.Ack.ResponseTime.Med": 0,
+    "PROD.Last10K.Ack.ResponseTime.Min": 0,
+    "PROD.Last10K.NonAck.DetectedPercentage": 0,
+    "PROD.Last10K.NonAck.Events.All": 0,
+    "PROD.Last1Min.Ack.DetectedPercentage": 0,
+    "PROD.Last1Min.Ack.Events.AckSkipParse": 60810,
+    "PROD.Last1Min.Ack.Events.All": 60810,
+    "PROD.Last1Min.Ack.ResponseTime.L00": 54807,
+    "PROD.Last1Min.Ack.ResponseTime.L01": 5978,
+    "PROD.Last1Min.Ack.ResponseTime.L02": 3,
+    "PROD.Last1Min.Ack.ResponseTime.L04": 22,
+    "PROD.Last1Min.Ack.ResponseTime.Max": 13,
+    "PROD.Last1Min.Ack.ResponseTime.Med": 0,
+    "PROD.Last1Min.Ack.ResponseTime.Min": 0,
+    "PROD.Last1Min.NonAck.DetectedPercentage": 0,
+    "PROD.Last1Min.NonAck.Events.All": 9,
+    "PROD.Last1Min.NonAck.Events.CacheHit": 9,
+    "PROD.Last1Min.NonAck.ResponseTime.L00": 9,
+    "PROD.Last1Min.NonAck.ResponseTime.Max": 0,
+    "PROD.Last1Min.NonAck.ResponseTime.Med": 0,
+    "PROD.Last1Min.NonAck.ResponseTime.Min": 0,
+    "PROD.SinceStart.Events.AckSkipParse": 798215969,
+    "PROD.SinceStart.Events.All": 798627282,
+    "PROD.SinceStart.Events.CacheHit": 411313,
+    "PROD.SinceStart.ResponseTime.L00": 721107771,
+    "PROD.SinceStart.ResponseTime.L01": 77071130,
+    "PROD.SinceStart.ResponseTime.L02": 19367,
+    "PROD.SinceStart.ResponseTime.L03": 73282,
+    "PROD.SinceStart.ResponseTime.L04": 327029,
+    "PROD.SinceStart.ResponseTime.L05": 19346,
+    "PROD.SinceStart.ResponseTime.L06": 2495,
+    "PROD.SinceStart.ResponseTime.L07": 155,
+    "PROD.SinceStart.ResponseTime.L08": 50,
+    "PROD.SinceStart.ResponseTime.L09": 6484,
+    "PROD.SinceStart.ResponseTime.L10": 152,
+    "PROD.SinceStart.ResponseTime.L11": 9,
+    "PROD.SinceStart.ResponseTime.L14": 12,
+    "Preprocess.ClientID.elex": 320185545,
+    "Preprocess.ClientID.funplus": 106846982,
+    "Preprocess.ClientID.glu": 45913568,
+    "Preprocess.ClientID.moonton": 11915543,
+    "Preprocess.ClientID.playstudios": 127281726,
+    "Preprocess.ClientID.scopely": 186483918,
+    "RTSingleThreadLineWriter.rawdata_rawlog.FileCount": 3607,
+    "RTSingleThreadLineWriter.rawdata_rawlog.TriggerWrite.Ok": 3429,
+    "Response.200.SendResponseException": 13,
+    "SANDBOX.Last10K.Ack.DetectedPercentage": 0,
+    "SANDBOX.Last10K.Ack.Events.All": 0,
+    "SANDBOX.Last10K.NonAck.DetectedPercentage": 0,
+    "SANDBOX.Last10K.NonAck.Events.All": 0,
+    "SANDBOX.Last1Min.Ack.DetectedPercentage": 0,
+    "SANDBOX.Last1Min.Ack.Events.All": 0,
+    "SANDBOX.Last1Min.NonAck.DetectedPercentage": 0,
+    "SANDBOX.Last1Min.NonAck.Events.All": 0,
+    "WARMUP.Events.All": 200,
+    "WARMUP.Events.Fail": 200,
+    "WARMUP.Events.Fail.ParseError": 200,
+    "WARMUP.Events.Ok": 200
+  },
+  "firstEventTime": 0,
+  "inDebugMode": 0,
+  "lastEventTime": 0,
+  "serverReadyTime": 1494905939112,
+  "serverStartTime": 1494905938943,
+  "serverType": 3,
+  "time": 1495674782437
+}
+
+RULE_ENGINE_2 (Healthy): status
+OK
+{
+  "consoleLog": {
+    "logEntryMap": {
+    }
+  },
+  "counters": {
+    "Health.BootstrapTime": 148,
+    "Health.IsHealthy": 1,
+    "MonitorPing": 397,
+    "POST_ACTION.Last10K.Ack.DetectedPercentage": 0,
+    "POST_ACTION.Last10K.Ack.Events.All": 0,
+    "POST_ACTION.Last10K.NonAck.DetectedPercentage": 0,
+    "POST_ACTION.Last10K.NonAck.Events.All": 0,
+    "POST_ACTION.Last1Min.Ack.DetectedPercentage": 0,
+    "POST_ACTION.Last1Min.Ack.Events.All": 0,
+    "POST_ACTION.Last1Min.NonAck.DetectedPercentage": 0,
+    "POST_ACTION.Last1Min.NonAck.Events.All": 0,
+    "PROD.Last10K.Ack.DetectedPercentage": 0,
+    "PROD.Last10K.Ack.Events.AckSkipParse": 10013,
+    "PROD.Last10K.Ack.Events.All": 10013,
+    "PROD.Last10K.Ack.ResponseTime.L00": 9091,
+    "PROD.Last10K.Ack.ResponseTime.L01": 914,
+    "PROD.Last10K.Ack.ResponseTime.L03": 8,
+    "PROD.Last10K.Ack.ResponseTime.Max": 7,
+    "PROD.Last10K.Ack.ResponseTime.Med": 0,
+    "PROD.Last10K.Ack.ResponseTime.Min": 0,
+    "PROD.Last10K.NonAck.DetectedPercentage": 0,
+    "PROD.Last10K.NonAck.Events.All": 1,
+    "PROD.Last10K.NonAck.Events.CacheHit": 1,
+    "PROD.Last10K.NonAck.ResponseTime.L00": 1,
+    "PROD.Last10K.NonAck.ResponseTime.Max": 0,
+    "PROD.Last10K.NonAck.ResponseTime.Med": 0,
+    "PROD.Last10K.NonAck.ResponseTime.Min": 0,
+    "PROD.Last1Min.Ack.DetectedPercentage": 0,
+    "PROD.Last1Min.Ack.Events.AckSkipParse": 7090,
+    "PROD.Last1Min.Ack.Events.All": 7090,
+    "PROD.Last1Min.Ack.ResponseTime.L00": 6420,
+    "PROD.Last1Min.Ack.ResponseTime.L01": 663,
+    "PROD.Last1Min.Ack.ResponseTime.L03": 7,
+    "PROD.Last1Min.Ack.ResponseTime.Max": 7,
+    "PROD.Last1Min.Ack.ResponseTime.Med": 0,
+    "PROD.Last1Min.Ack.ResponseTime.Min": 0,
+    "PROD.Last1Min.NonAck.DetectedPercentage": 0,
+    "PROD.Last1Min.NonAck.Events.All": 1,
+    "PROD.Last1Min.NonAck.Events.CacheHit": 1,
+    "PROD.Last1Min.NonAck.ResponseTime.L00": 1,
+    "PROD.Last1Min.NonAck.ResponseTime.Max": 0,
+    "PROD.Last1Min.NonAck.ResponseTime.Med": 0,
+    "PROD.Last1Min.NonAck.ResponseTime.Min": 0,
+    "PROD.SinceStart.Events.AckSkipParse": 24280613,
+    "PROD.SinceStart.Events.All": 24285599,
+    "PROD.SinceStart.Events.CacheHit": 4986,
+    "PROD.SinceStart.ResponseTime.L00": 21972496,
+    "PROD.SinceStart.ResponseTime.L01": 2288368,
+    "PROD.SinceStart.ResponseTime.L02": 332,
+    "PROD.SinceStart.ResponseTime.L03": 20789,
+    "PROD.SinceStart.ResponseTime.L04": 2422,
+    "PROD.SinceStart.ResponseTime.L05": 624,
+    "PROD.SinceStart.ResponseTime.L06": 104,
+    "PROD.SinceStart.ResponseTime.L07": 12,
+    "PROD.SinceStart.ResponseTime.L08": 384,
+    "PROD.SinceStart.ResponseTime.L09": 59,
+    "PROD.SinceStart.ResponseTime.L10": 7,
+    "PROD.SinceStart.ResponseTime.L11": 2,
+    "Preprocess.ClientID.elex": 9704568,
+    "Preprocess.ClientID.funplus": 3243509,
+    "Preprocess.ClientID.glu": 1397861,
+    "Preprocess.ClientID.moonton": 407325,
+    "Preprocess.ClientID.playstudios": 3869802,
+    "Preprocess.ClientID.scopely": 5662534,
+    "RTSingleThreadLineWriter.rawdata_rawlog.FileCount": 2474,
+    "SANDBOX.Last10K.Ack.DetectedPercentage": 0,
+    "SANDBOX.Last10K.Ack.Events.All": 0,
+    "SANDBOX.Last10K.NonAck.DetectedPercentage": 0,
+    "SANDBOX.Last10K.NonAck.Events.All": 0,
+    "SANDBOX.Last1Min.Ack.DetectedPercentage": 0,
+    "SANDBOX.Last1Min.Ack.Events.All": 0,
+    "SANDBOX.Last1Min.NonAck.DetectedPercentage": 0,
+    "SANDBOX.Last1Min.NonAck.Events.All": 0,
+    "WARMUP.Events.All": 200,
+    "WARMUP.Events.Fail": 200,
+    "WARMUP.Events.Fail.ParseError": 200,
+    "WARMUP.Events.Ok": 200
+  },
+  "firstEventTime": 0,
+  "inDebugMode": 0,
+  "lastEventTime": 0,
+  "serverReadyTime": 1494905878703,
+  "serverStartTime": 1494905878555,
+  "serverType": 6,
+  "time": 1495674782648
+}
+
+Data update userstats: &action=update_data (add &force=true to force update)
+Stop this module: &action=stop
